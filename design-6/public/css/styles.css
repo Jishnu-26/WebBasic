@@ -1,0 +1,52 @@
+.card-group{
+    margin-top: 20px;
+    width: 1000px;
+    gap: 20px;
+}
+.card-img-top{
+    border-radius: 50% !important;
+    width: 150px !important;
+    height: 150px;
+}
+.card-body{
+    padding-top: 0px !important;
+}
+body{
+    background: lightgrey !important;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+	transform:translateY(-30%);
+    text-align:center;
+    margin-bottom:0px;
+}
+/* icons */
+.fa {
+  padding: 12px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius:60%;
+}
+
+  .fa:hover {
+    opacity: 0.7;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-pinterest {
+    background: #cb2027;
+    color: white;
+  }
+  

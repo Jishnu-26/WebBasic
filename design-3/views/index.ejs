@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Table</title>
+    
+</head>
+<body>
+    <table class="table table-striped">
+        <thead>
+            <tr class="table-primary">
+                <th>Class name</th>
+                <th>Type</th>
+                <th>Hours</th>
+                <th>Trainer</th>
+                <th>Spots</th>
+            </tr>
+            <% let count=0 %>
+            <% data.forEach(data  => { %>
+            <% if(count%2==0){ %>
+            <tr>
+            <% } else { %>
+            <tr class="table-primary">
+            <% } %>
+                <th><%= data.classname %></th>
+                <th><%= data.type %></th>
+                <th><%= data.hours %></th>
+                <th><%= data.trainer %></th>
+                <th><%= data.spots %></th>
+            </tr>
+            <% }); %>
+        </thead>
+      </table>
+    
+</body>
+</html>

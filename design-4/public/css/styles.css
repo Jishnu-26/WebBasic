@@ -1,0 +1,41 @@
+.display-6{
+  font-size: 1.5rem;
+
+}
+.fs-125{
+  font-size: 1.25rem;
+}
+.card{
+  width: 300px;
+}
+.mauto{
+  margin-left: 80px;
+}
+.grey{
+  background-color: grey;
+}
+.flex{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.btn{
+  border-radius: 20px !important;
+}
+/* hover */
+.card-body:hover {
+  height: 450px;
+  box-shadow: inset;
+  background-color: orangered;
+  color: white;
+}
+
+.card-body:hover li{
+  background-color: orangered;
+  color: white;
+}
+.card-body:hover .btn{
+  background-color: white;
+  color: black;
+}
+
